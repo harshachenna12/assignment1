@@ -1,0 +1,183 @@
+/* CONTACT FORM STARTS */
+body {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  .contact-form-main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-form-input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-fields {
+    margin-bottom: 2rem;
+  }
+  
+  .input-label {
+    margin-right: 1rem;
+  }
+  
+  .input {
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  .btn-container {
+    margin-top: 2rem;
+    align-self: center;
+  }
+  
+  .add-btn {
+    width: 5rem;
+    height: 2rem;
+    background-color: #3d8ecc;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: -15px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cancel-btn {
+    width: 5rem;
+    height: 2rem;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 2rem;
+    box-shadow: -15px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .see-details-container {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 4rem;
+  }
+  
+  .see-details-btn {
+    background-color: orange;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    box-shadow: -15px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .see-details-btn:hover {
+    transform: translateY(-1.2rem);
+  }
+  
+  /* CONTACT FORM ENDS */
+  
+  /* CONTACT-LIST STARTS */
+  
+  .contact-list-li {
+    list-style-type: none;
+    text-align: left;
+    margin-top: 15px;
+  }
+  
+  .edit-btn {
+    background-color: rgb(242, 186, 82);
+    border: none;
+    color: #fff;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    width: 4.5rem;
+    height: 1.5rem;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    background-color: red;
+    color: #fff;
+    border: none;
+    width: 4.5rem;
+    height: 1.5rem;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  
+  /* CONTACT LIST ENDS */
+  
+  .hr-line {
+    margin-top: 8rem;
+  }
+  
+  /* MERGE CONTACTS STARTS */
+  .merge-main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .merge-sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .merge-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin-left: 15rem; */
+  }
+  
+  .merge-contacts-li {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .checkbox {
+    margin-right: 1.5rem;
+  }
+  
+  .merge-btn {
+    width: 15rem;
+    height: 1.8rem;
+    background-color: rgb(242, 186, 82);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+  }
+  
+  /* MERGE CONTACTS ENDS */
+  
+  /* FINAL DETAILS STARTS */
+  
+  .details-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .merged-contacts-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .merged-details-final-li {
+    list-style-type: none;
+    margin-right: 2rem;
+    color: #3d8ecc;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  /* FINAL DETAILS ENDS */
+  
